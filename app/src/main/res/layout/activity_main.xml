@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="여기다가 입력"
+        android:fontFamily="@font/kcc"
+        android:textSize="30dp"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/kcc"
+        android:textSize="30dp"
+        android:text="체크 시작" />
+
+</LinearLayout>
