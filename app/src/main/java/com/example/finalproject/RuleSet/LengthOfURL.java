@@ -1,6 +1,5 @@
 package com.example.finalproject.RuleSet;
 
-
 import com.example.finalproject.Method.RuleBase;
 
 public class LengthOfURL extends RuleBase {

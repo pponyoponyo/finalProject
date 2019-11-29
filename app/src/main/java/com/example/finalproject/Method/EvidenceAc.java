@@ -1,7 +1,6 @@
 package com.example.finalproject.Method;
 
 import android.content.Context;
-
 import com.example.finalproject.RuleSet.BackSlash;
 import com.example.finalproject.RuleSet.Bitly;
 import com.example.finalproject.RuleSet.Dot;
