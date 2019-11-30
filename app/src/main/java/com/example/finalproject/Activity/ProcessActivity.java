@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.finalproject.Method.EvidenceAc;
 import com.example.finalproject.R;
 
 public class ProcessActivity extends AppCompatActivity {
@@ -21,6 +22,8 @@ public class ProcessActivity extends AppCompatActivity {
         inputUrl = i.getExtras().getString("url");
 
         //compDB();
+
+        EvidenceAc evidenceAc = new EvidenceAc(inputUrl);
 
     }
 /*

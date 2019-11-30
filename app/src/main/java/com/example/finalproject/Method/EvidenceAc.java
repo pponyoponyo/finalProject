@@ -1,6 +1,5 @@
 package com.example.finalproject.Method;
 
-import android.content.Context;
 import com.example.finalproject.RuleSet.BackSlash;
 import com.example.finalproject.RuleSet.Bitly;
 import com.example.finalproject.RuleSet.Dot;
@@ -16,13 +15,17 @@ import com.example.finalproject.RuleSet.WindowOpenMethod;
 
 public class EvidenceAc {
 
-    private String url = "http://www.naver.com/";
+    private String url;
     private int total = 0;
     private int trueNum = 0;
     private float resultN = 0;
-    private Context context;
 
-    public void EvidenceAc(){
+    public EvidenceAc(String url) {
+        this.url = url;
+    }
+
+    public void Evidence(){
+
         BackSlash backSlash = new BackSlash(url);
         Bitly bitly = new Bitly(url);
         Dot dot=new Dot(url);
