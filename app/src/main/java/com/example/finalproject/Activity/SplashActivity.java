@@ -2,6 +2,7 @@ package com.example.finalproject.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,7 +11,7 @@ import android.os.Handler;
 import com.example.finalproject.R;
 
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends BaseActivity {
 
     private SharedPreferences sp;
 

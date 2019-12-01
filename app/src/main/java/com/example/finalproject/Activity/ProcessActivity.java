@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.finalproject.Method.EvidenceAc;
 import com.example.finalproject.R;
 
-public class ProcessActivity extends AppCompatActivity {
+public class ProcessActivity extends BaseActivity {
 
     private String inputUrl;
     private Boolean done = false;

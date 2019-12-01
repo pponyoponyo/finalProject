@@ -4,7 +4,8 @@
     android:layout_height="350dp"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:layout_centerInParent="true">
+    android:layout_centerInParent="true"
+    android:background="@color/colorWhite">
 
     <TextView
         android:id="@+id/txtNotice"
@@ -16,7 +17,6 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
-        android:fontFamily="@font/kcc"
         android:text="의심이 가는 url을 어플로 '공유'하거나 어플에 '직접 작성'하여 판단해보세요!"
         android:textSize="30dp"/>
 
@@ -30,7 +30,6 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="95dp"
         android:layout_marginBottom="45dp"
-        android:fontFamily="@font/kcc"
         android:text="다시 보지 않기"
         android:textSize="20dp" />
 
@@ -46,7 +45,8 @@
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="56dp"
         android:layout_toEndOf="@+id/cbRepeat"
-        android:fontFamily="@font/kcc"
         android:text="확인"
-        android:textSize="28dp" />
+        android:textSize="20dp"
+        android:background="#000000"/>
+
 </RelativeLayout>

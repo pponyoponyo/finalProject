@@ -10,7 +10,7 @@ import android.widget.EditText;
 import com.example.finalproject.R;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     private EditText input;
     private String inputUrl;

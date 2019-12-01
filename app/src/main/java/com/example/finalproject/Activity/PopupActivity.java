@@ -8,7 +8,7 @@ import android.widget.CheckBox;
 
 import com.example.finalproject.R;
 
-public class PopupActivity extends Activity {
+public class PopupActivity extends BaseActivity {
 
     private SharedPreferences sp;
 
