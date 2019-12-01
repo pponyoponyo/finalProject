@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.finalproject.Method.EvidenceAc;
 import com.example.finalproject.R;
 
 public class ProcessActivity extends AppCompatActivity {
@@ -22,6 +23,13 @@ public class ProcessActivity extends AppCompatActivity {
 
         //compDB();
 
+        //method 끝나고 갯수 return 해야함 (아직 구현 안됨)
+        EvidenceAc evidenceAc = new EvidenceAc(inputUrl);
+
+        Intent intent = new Intent(getBaseContext(), ResultActivity.class);
+        startActivity(intent);
+
+        finish();
     }
 /*
     public void compDB(){
