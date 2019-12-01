@@ -27,6 +27,9 @@
         android:text="Sorry, please wait a minute"
         android:textAlignment="center"
         android:textColor="@color/colorBlack"
-        android:textSize="30dp" />
+        android:textSize="20dp" />
+
+
+
 
 </LinearLayout>

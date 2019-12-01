@@ -31,7 +31,7 @@
         android:layout_marginTop="95dp"
         android:layout_marginBottom="45dp"
         android:text="다시 보지 않기"
-        android:textSize="20dp" />
+        android:textSize="10dp" />
 
     <Button
         android:id="@+id/btnOk"
@@ -46,7 +46,8 @@
         android:layout_marginBottom="56dp"
         android:layout_toEndOf="@+id/cbRepeat"
         android:text="확인"
-        android:textSize="20dp"
-        android:background="#000000"/>
+        android:textSize="10dp"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
 
 </RelativeLayout>
