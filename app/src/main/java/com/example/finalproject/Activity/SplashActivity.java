@@ -10,7 +10,7 @@ import android.os.Handler;
 import com.example.finalproject.R;
 
 
-public class Splash extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
     private SharedPreferences sp;
 
