@@ -3,15 +3,16 @@ package com.example.finalproject.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.finalproject.Method.EvidenceAc;
 import com.example.finalproject.R;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class ProcessActivity extends BaseActivity {
 
     private String inputUrl;
     private Boolean done = false;
+    private FirebaseDatabase mFirebaseDB = FirebaseDatabase.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,10 @@ public class ProcessActivity extends BaseActivity {
 
         Intent i = getIntent();
         inputUrl = i.getExtras().getString("url");
-
+/*
+        DatabaseReference dbRef = mFirebaseDB.getReference();
+        dbRef.child("url").setValue("diaryofagameaddict.com\n",1);
+        dbRef.child("url").setValue("espdesign.com.au\n",1);*/
         //compDB();
 
         //method 끝나고 갯수 return 해야함 (아직 구현 안됨)

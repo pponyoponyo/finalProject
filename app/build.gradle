@@ -30,6 +30,7 @@ dependencies {
 
     //jsoup
     implementation 'org.jsoup:jsoup:1.12.1'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
 
 }
 
