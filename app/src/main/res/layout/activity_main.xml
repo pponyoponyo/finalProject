@@ -2,7 +2,6 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -11,36 +10,31 @@
 
 
     <ImageView
-        android:id="@+id/imgLogo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/mainlogo"
-        android:layout_marginTop="20dp"/>
+        android:src="@drawable/main_logo"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="50dp"
         android:orientation="horizontal"
         android:layout_weight="0.4"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:gravity="center">
 
-        <TextView
-            android:id="@+id/txtURL"
-            android:layout_width="0dp"
+        <ImageView
+            android:layout_width="21dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:gravity="right"
-            android:text="URL :"
-            android:textColor="#000000"
-            android:textSize="30dp"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/url" />
 
         <EditText
             android:id="@+id/edtInput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
             android:layout_weight="0.7"
             android:background="@drawable/background"
             android:ems="10"
@@ -54,15 +48,20 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnCheck"
-        android:layout_width="150dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="15dp"
-        android:text="Check"
-        android:textColor="@color/colorWhite"
-        android:background="@drawable/btncorner"
-        android:layout_marginTop="30dp"/>
-
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        >
+        <Button
+            android:id="@+id/btnCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="C h e c k"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btncorner"
+            android:padding="10dp"/>
+    </LinearLayout>
 </LinearLayout>
