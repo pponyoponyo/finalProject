@@ -19,15 +19,22 @@
         android:textSize="30dp" />
 
     <TextView
-        android:layout_width="400dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="22dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="Sorry, please wait a minute"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        android:text="Sorry,"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="please wait a minute"
         android:textAlignment="center"
         android:textColor="@color/colorBlack"
         android:textSize="20dp" />
+
 
 
 
