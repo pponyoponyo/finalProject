@@ -15,10 +15,10 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
 
-        input = findViewById(R.id.edtInput);
+            input = findViewById(R.id.edtInput);
 
         //공유 기능으로 url data 받기
         Intent intent = getIntent();

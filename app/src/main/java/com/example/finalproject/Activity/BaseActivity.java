@@ -14,7 +14,7 @@ public class BaseActivity extends Activity {
     public void setContentView(int layoutResID) {
         super.setContentView(layoutResID);
         if(mTypeface==null){
-            mTypeface=Typeface.createFromAsset(this.getAssets(),"fonts/Typo_DabangguB.ttf"); // 글씨체 사용
+            mTypeface=Typeface.createFromAsset(this.getAssets(),"fonts/HoonSaemaulundongR.ttf"); // 글씨체 사용
         }
 
         setGlobalFont(getWindow().getDecorView());

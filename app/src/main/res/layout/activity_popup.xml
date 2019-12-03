@@ -13,12 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:gravity="center"
         android:layout_marginTop="80dp"
         android:scrollbars="vertical"
         android:text="의심이 가는 url을 어플로 '공유'하거나 어플에 '직접 작성'하여 판단해보세요!"
         android:textColor="@color/colorBlack"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
 
     <CheckBox
         android:id="@+id/cbRepeat"
